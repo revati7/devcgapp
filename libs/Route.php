@@ -189,12 +189,8 @@ class Route {
                     $c->view();
                     die();
                 break;
-            }
-            echo "Yes We got it, & CRUD Operation is ".$CRUD_OPR;   
-        }else{
-            echo "<br>Invalid Call";
+            }     
         }
-        
     }
     function error(){
         if ($this->found !== 1){
